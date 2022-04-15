@@ -1,0 +1,28 @@
+<html>
+    <head><title> Chat Web </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <script src="Kwitter.js"></script>
+       <link rel="stylesheet" type="text/css" href="Kwitter.css">
+    </head>
+    <body style="background-color: pink;">
+      <center>  
+        <h1>Let's Chat 
+          <sup>
+            <img src="chat emoji.jpg" style="height:40px;width: 40px;">
+          </sup>
+    
+        </h1>
+        <br>
+        <h2>User name :</h2>
+        <input id="username" class="form-control" type="text" placeholder="User Name"><br>
+        <button id="login" class="btn btn-danger" onclick="addUser()">Log in</button>
+      </center>
+    </body>
+</html>
